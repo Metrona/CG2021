@@ -2290,6 +2290,348 @@ Exporter version: 2.93.5, Blender version: 3.0.0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  576
+	processing begun of mesh:  pillar
+		processing begun of material:  pillar_mat
+			processing texture pillar_tex
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3823
+		num normals        :  3823
+		num tangents       :  15292
+		num uvs            :  7646
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of mesh:  pillar.001
+		processing begun of material:  pillar_mat.006
+			processing texture pillar_tex
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3823
+		num normals        :  3823
+		num tangents       :  15292
+		num uvs            :  7646
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of mesh:  pillar.002
+		processing begun of material:  pillar_mat.007
+			processing texture pillar_tex
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3823
+		num normals        :  3823
+		num tangents       :  15292
+		num uvs            :  7646
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of mesh:  pillar.005
+		processing begun of material:  pillar_mat.010
+			processing texture pillar_tex
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3823
+		num normals        :  3823
+		num tangents       :  15292
+		num uvs            :  7646
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of mesh:  pillar.004
+		processing begun of material:  pillar_mat.009
+			processing texture pillar_tex
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3823
+		num normals        :  3823
+		num tangents       :  15292
+		num uvs            :  7646
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of mesh:  pillar.003
+		processing begun of material:  pillar_mat.008
+			processing texture pillar_tex
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  3823
+		num normals        :  3823
+		num tangents       :  15292
+		num uvs            :  7646
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of mesh:  dodecahedron
+		processing begun of material:  Metal_Frame
+		registered as also a user of material:  Metal_Frame
+		num positions      :  93
+		num normals        :  93
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  hexahedron
+		processing begun of material:  Metal_Frame
+		registered as also a user of material:  Metal_Frame
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  icosahedron
+		processing begun of material:  Metal_Frame
+		registered as also a user of material:  Metal_Frame
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  octahedron
+		processing begun of material:  Metal_Frame
+		registered as also a user of material:  Metal_Frame
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  tetrahedron
+		processing begun of material:  Metal_Frame
+		registered as also a user of material:  Metal_Frame
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  teapot
+		processing begun of material:  Metal_Frame
+		registered as also a user of material:  Metal_Frame
+		num positions      :  16668
+		num normals        :  16668
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6320
+	processing begun of mesh:  item_displayl_1
+		processing begun of material:  Material__10
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  item_display_1
+		processing begun of material:  Material__4.001
+			processing texture Map__26_OSL__Lift_Gamma_Gain
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  125
+		num normals        :  125
+		num tangents       :  0
+		num uvs            :  250
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  item_display_2
+		processing begun of material:  Material__4.002
+			processing texture Map__26_OSL__Lift_Gamma_Gain
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  125
+		num normals        :  125
+		num tangents       :  0
+		num uvs            :  250
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  item_displayl_2
+		processing begun of material:  Material__10.001
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  item_display_3
+		processing begun of material:  Material__4.003
+			processing texture Map__26_OSL__Lift_Gamma_Gain
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  125
+		num normals        :  125
+		num tangents       :  0
+		num uvs            :  250
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  item_displayl_3
+		processing begun of material:  Material__10.002
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  item_display_4
+		processing begun of material:  Material__4.004
+			processing texture Map__26_OSL__Lift_Gamma_Gain
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  125
+		num normals        :  125
+		num tangents       :  0
+		num uvs            :  250
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  item_displayl_4
+		processing begun of material:  Material__10.003
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  item_display_5
+		processing begun of material:  Material__4.005
+			processing texture Map__26_OSL__Lift_Gamma_Gain
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  125
+		num normals        :  125
+		num tangents       :  0
+		num uvs            :  250
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  item_displayl_5
+		processing begun of material:  Material__10.004
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  airplane
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_01
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_06
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_07
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_04
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_03
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_02
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_05
+		processing begun of material:  14082_WWII_Plane_Japan_Kawasaki_Ki_61_body_08
+			processing texture WWII_Plane_Japan_Kawasaki_Ki_61_diffuse_v1_14082
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  model.Multimaterial#0
+		Custom split normals with tangents being used
+		num positions      :  3720
+		num normals        :  3720
+		num tangents       :  14880
+		num uvs            :  7440
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1756
+	processing begun of mesh:  bus
+		processing begun of material:  col_master_bus
+		processing begun of material:  col_1
+		processing begun of material:  col_2
+		processing begun of material:  col_3
+		processing begun of material:  col_4
+		processing begun of material:  col_5
+		processing begun of multimaterial:  model.Multimaterial#1
+		Custom split normals with tangents being used
+		num positions      :  2118
+		num normals        :  2118
+		num tangents       :  8472
+		num uvs            :  4236
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1521
+	processing begun of mesh:  static_rotor2
+		processing begun of material:  Mat_maverick.012_ec135.bmp
+			processing texture ec135
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  105
+		num normals        :  105
+		num tangents       :  420
+		num uvs            :  210
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  44
+	processing begun of mesh:  static_rotor
+		processing begun of material:  Mat_maverick.011_ec1351.bmp
+			processing texture ec1351
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  99
+		num normals        :  99
+		num tangents       :  396
+		num uvs            :  198
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  47
+	processing begun of mesh:  helicopter
+		processing begun of material:  Mat_maverick.008_ec135.bmp
+		processing begun of material:  Mat_maverick.009_ec1351.bmp
+		processing begun of material:  Mat_maverick.010
+			processing texture ec135
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture ec1351
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  model.Multimaterial#2
+		Custom split normals with tangents being used
+		num positions      :  3290
+		num normals        :  3290
+		num tangents       :  13160
+		num uvs            :  6580
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1824
+	processing begun of mesh:  boat
+		processing begun of material:  _10634_SpeedBoat_v01_LOD310634_SpeedBoat_v01
+		processing begun of material:  glass.001
+			processing texture SpeedBoat_v01_10634
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  model.Multimaterial#3
+		Custom split normals with tangents being used
+		num positions      :  3423
+		num normals        :  3423
+		num tangents       :  13692
+		num uvs            :  6846
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2412
+	processing begun of mesh:  tank
+		processing begun of material:  03___14077_WWII_Tank_Germany_Panzer_III_turret
+		processing begun of material:  02___14077_WWII_Tank_Germany_Panzer_III_hull
+		processing begun of material:  01___14077_WWII_Tank_Germany_Panzer_III_tracks
+			processing texture WWII_Tank_Germany_Panzer_III_turret_diff_14077
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture WWII_Tank_Germany_Panzer_III_hull_diff_14077
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture WWII_Tank_Germany_Panzer_III_tracks_diff_14077
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  model.Multimaterial#4
+		Custom split normals with tangents being used
+		num positions      :  2785
+		num normals        :  2785
+		num tangents       :  11140
+		num uvs            :  5570
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1508
 ========= Writing of JSON file started =========
 	writing mesh:  Box111
 	writing mesh:  Box112
@@ -2518,6 +2860,35 @@ Exporter version: 2.93.5, Blender version: 3.0.0
 	writing mesh:  Well
 	writing mesh:  Bucket
 	writing mesh:  fox1
+	writing mesh:  pillar
+	writing mesh:  pillar.001
+	writing mesh:  pillar.002
+	writing mesh:  pillar.005
+	writing mesh:  pillar.004
+	writing mesh:  pillar.003
+	writing mesh:  dodecahedron
+	writing mesh:  hexahedron
+	writing mesh:  icosahedron
+	writing mesh:  octahedron
+	writing mesh:  tetrahedron
+	writing mesh:  teapot
+	writing mesh:  item_displayl_1
+	writing mesh:  item_display_1
+	writing mesh:  item_display_2
+	writing mesh:  item_displayl_2
+	writing mesh:  item_display_3
+	writing mesh:  item_displayl_3
+	writing mesh:  item_display_4
+	writing mesh:  item_displayl_4
+	writing mesh:  item_display_5
+	writing mesh:  item_displayl_5
+	writing mesh:  airplane
+	writing mesh:  bus
+	writing mesh:  static_rotor2
+	writing mesh:  static_rotor
+	writing mesh:  helicopter
+	writing mesh:  boat
+	writing mesh:  tank
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 8.4017 secs
+elapsed time:  0 min, 20.9395 secs

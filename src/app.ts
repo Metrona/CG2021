@@ -9,24 +9,42 @@ import {
   HemisphericLight,
   Animation,
   PointerEventTypes,
-  // PBRMetallicRoughnessMaterial,
 } from "@babylonjs/core";
-import "@babylonjs/loaders/glTF";
 
 class App {
   // Initialization
   private _scene: Scene;
   private _canvas: HTMLCanvasElement;
+  private _infoModal: HTMLDivElement;
   private _engine: Engine;
 
   // Create canvas
-  private _createCanvas(): HTMLCanvasElement {
-    var canvas = document.createElement("canvas");
-    canvas.style.width = "100%";
-    canvas.style.height = "100%";
-    canvas.id = "canvas";
-    document.body.append(canvas); // Add the canvas into the HTML body
+  private _getCanvas(): HTMLCanvasElement {
+    const canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;
     return canvas;
+  }
+
+  private _getInfoModal(): HTMLDivElement {
+    const infoModal = document.getElementById("info-modal") as HTMLDivElement;
+    return infoModal;
+  }
+
+  private _setInfo(title: string, body: string, link: string): void {
+    this._infoModal.style.display = "flex";
+
+    // set title
+    const titleEl = document.getElementById("info-modal-title");
+    titleEl.innerHTML = title;
+
+    // set body
+    const bodyEl = document.getElementById("info-modal-body");
+    bodyEl.innerHTML = body;
+
+    // set link
+    const linkEl = document.getElementById(
+      "info-modal-link"
+    ) as HTMLAnchorElement;
+    linkEl.href = link;
   }
 
   // Create scene
@@ -142,6 +160,41 @@ class App {
       let fox_door_opened = false;
       fox_door.isPickable = true;
       fox_door_hinge.isPickable = true;
+
+      // MUSEUM
+      // Airplane
+      const airplane = scene.getMeshByName("airplane");
+      airplane.isPickable = true;
+      // Helicopter
+      const helicopter = scene.getMeshByName("helicopter");
+      helicopter.isPickable = true;
+      // Bus
+      const bus = scene.getMeshByName("bus");
+      bus.isPickable = true;
+      // Boat
+      const boat = scene.getMeshByName("boat");
+      boat.isPickable = true;
+      // Tank
+      const tank = scene.getMeshByName("tank");
+      tank.isPickable = true;
+      // Tetrahedron
+      const tetrahedron = scene.getMeshByName("tetrahedron");
+      tetrahedron.isPickable = true;
+      // Hexahedron
+      const hexahedron = scene.getMeshByName("hexahedron");
+      hexahedron.isPickable = true;
+      // Octahedron
+      const octahedron = scene.getMeshByName("octahedron");
+      octahedron.isPickable = true;
+      // Icosahedron
+      const icosahedron = scene.getMeshByName("icosahedron");
+      icosahedron.isPickable = true;
+      // Dodecahedron
+      const dodecahedron = scene.getMeshByName("dodecahedron");
+      dodecahedron.isPickable = true;
+      // Teapot
+      const teapot = scene.getMeshByName("teapot");
+      teapot.isPickable = true;
 
       // door animations
       //left
@@ -450,6 +503,72 @@ class App {
               );
             }
             fox_door_opened = !fox_door_opened;
+          } else if (pickInfo.pickedMesh === airplane) {
+            this._setInfo(
+              "Airplane",
+              "An airplane or aeroplane (informally plane) is a fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller, or rocket engine. Airplanes come in a variety of sizes, shapes, and wing configurations.",
+              "https://en.wikipedia.org/wiki/Airplane"
+            );
+          } else if (pickInfo.pickedMesh === helicopter) {
+            this._setInfo(
+              "Helicopter",
+              "A helicopter is a type of rotorcraft in which lift and thrust are supplied by horizontally spinning rotors.",
+              "https://en.wikipedia.org/wiki/Helicopter"
+            );
+          } else if (pickInfo.pickedMesh === bus) {
+            this._setInfo(
+              "Bus",
+              "A bus (contracted from omnibus, with variants multibus, motorbus, autobus, etc.) is a public transport road vehicle designed to carry significantly more passengers than the average cars or vans.",
+              "https://en.wikipedia.org/wiki/Bus"
+            );
+          } else if (pickInfo.pickedMesh === boat) {
+            this._setInfo(
+              "Motorboat",
+              "A motorboat, speedboat or powerboat is a boat that is exclusively powered by an engine.",
+              "https://en.wikipedia.org/wiki/Motorboat"
+            );
+          } else if (pickInfo.pickedMesh === tank) {
+            this._setInfo(
+              "Tank",
+              "A tank is an armored fighting vehicle intended as a primary offensive weapon in front-line ground combat.",
+              "https://en.wikipedia.org/wiki/Tank"
+            );
+          } else if (pickInfo.pickedMesh === tetrahedron) {
+            this._setInfo(
+              "Tetrahedron",
+              "In geometry, a tetrahedron (plural: tetrahedra or tetrahedrons), also known as a triangular pyramid, is a polyhedron composed of four triangular faces, six straight edges, and four vertex corners.",
+              "https://en.wikipedia.org/wiki/Tetrahedron"
+            );
+          } else if (pickInfo.pickedMesh === hexahedron) {
+            this._setInfo(
+              "Hexahedron",
+              "A hexahedron (plural: hexahedra) is any polyhedron with six faces. A cube, for example, is a regular hexahedron with all its faces square, and three squares around each vertex.",
+              "https://en.wikipedia.org/wiki/Hexahedron"
+            );
+          } else if (pickInfo.pickedMesh === octahedron) {
+            this._setInfo(
+              "Octahedron",
+              "In geometry, an octahedron (plural: octahedra, octahedrons) is a polyhedron with eight faces, twelve edges, and six vertices.",
+              "https://en.wikipedia.org/wiki/Octahedron"
+            );
+          } else if (pickInfo.pickedMesh === icosahedron) {
+            this._setInfo(
+              "Icosahedron",
+              "In geometry, an icosahedron (/ˌaɪkɒsəˈhiːdrən, -kə-, -koʊ-/ or /aɪˌkɒsəˈhiːdrən/) is a polyhedron with 20 faces.",
+              "https://en.wikipedia.org/wiki/Icosahedron"
+            );
+          } else if (pickInfo.pickedMesh === dodecahedron) {
+            this._setInfo(
+              "Dodecahedron",
+              'In geometry, a dodecahedron (Greek δωδεκάεδρον, from δώδεκα dōdeka "twelve" + ἕδρα hédra "base", "seat" or "face") or duodecahedron is any polyhedron with twelve flat faces.',
+              "https://en.wikipedia.org/wiki/Dodecahedron"
+            );
+          } else if (pickInfo.pickedMesh === teapot) {
+            this._setInfo(
+              "Utah Teapot",
+              "The Utah teapot, or the Newell teapot, is a 3D test model that has become a standard reference object and an in-joke within the computer graphics community.",
+              "https://en.wikipedia.org/wiki/Utah_teapot"
+            );
           }
         }
       };
@@ -461,134 +580,6 @@ class App {
             break;
         }
       });
-
-      // (scene.activeCamera as FreeCamera).onCollide = (collidedMesh) => {
-      //   if (collidedMesh === main_door_trigger) {
-      //     // Turn off collision
-      //     main_door_trigger.checkCollisions = false;
-
-      //     // Open the door
-      //     // left
-      //     scene.beginDirectAnimation(
-      //       main_door_left,
-      //       [door_left_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       main_door_left_hinge,
-      //       [door_left_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     // right
-      //     scene.beginDirectAnimation(
-      //       main_door_right,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       main_door_right_hinge,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //   } else if (collidedMesh === souvenir_door_trigger) {
-      //     // Turn off collision
-      //     souvenir_door_trigger.checkCollisions = false;
-
-      //     // Open the door
-      //     // left
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_left,
-      //       [door_left_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_left_hinge,
-      //       [door_left_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     // right
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_right,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_right_hinge,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //   } else if (collidedMesh === souvenir_door_trigger_2) {
-      //     // Turn off collision
-      //     souvenir_door_trigger_2.checkCollisions = false;
-
-      //     // Open the door
-      //     // left
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_left_2,
-      //       [door_left_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_left_hinge_2,
-      //       [door_left_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     // right
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_right_2,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       souvenir_door_right_hinge_2,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //   } else if (collidedMesh === fox_door_trigger) {
-      //     // Turn off collision
-      //     fox_door_trigger.checkCollisions = false;
-
-      //     // Open the door
-      //     scene.beginDirectAnimation(
-      //       fox_door,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //     scene.beginDirectAnimation(
-      //       fox_door_hinge,
-      //       [door_right_animation],
-      //       0,
-      //       30,
-      //       false
-      //     );
-      //   }
-      // };
     });
 
     return scene;
@@ -597,7 +588,13 @@ class App {
   // Constructor
   constructor() {
     // Create canvas
-    this._canvas = this._createCanvas();
+    this._canvas = this._getCanvas();
+
+    this._infoModal = this._getInfoModal();
+    const infoCloseBtn = document.getElementById("info-close-btn");
+    infoCloseBtn.addEventListener("click", () => {
+      this._infoModal.style.display = "none";
+    });
 
     // Init babylon scene and engine
     this._engine = new Engine(this._canvas, true);
